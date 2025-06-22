@@ -18,6 +18,7 @@ def removeDuplicates1(nums):
     
     return k + 1
 
+
 # (alt)
 def removeDuplicates(nums):
     if not nums:

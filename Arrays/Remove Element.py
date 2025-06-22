@@ -1,5 +1,5 @@
 '''
-Problem: 27. Remove Element
+Name: 27. Remove Element
 Link: https://leetcode.com/problems/remove-element/description/
 '''
 
