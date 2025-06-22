@@ -1,5 +1,5 @@
 '''
-Problem: Merge Sorted Array
+Problem: 88. Merge Sorted Array
 Link: https://leetcode.com/problems/merge-sorted-array/
 '''
 
@@ -8,7 +8,7 @@ def merge_v1(nums1, m, nums2, n):
     nums1[m:] = nums2
     nums1.sort()
 
-# Approach 2: Two Pointers (classic)
+# Approach 2: Two Pointers
 def merge_v2(nums1, m, nums2, n):
     m1, n1, r = m - 1, n - 1, m + n - 1
 
@@ -26,7 +26,7 @@ def merge_v2(nums1, m, nums2, n):
         r -= 1
         n1 -= 1
 
-# Approach 3: Two Pointers (cleaner variable names)
+# (alt)
 def merge(nums1, m, nums2, n):
     p1, p2, p = m - 1, n - 1, m + n - 1
 
@@ -41,12 +41,10 @@ def merge(nums1, m, nums2, n):
 
     nums1[:p2 + 1] = nums2[:p2 + 1]
 
-# Test
+# Test case
 nums1 = [1, 2, 3, 0, 0, 0]
 m = 3
 nums2 = [2, 5, 6]
 n = 3
-
-# Choose any version to test
 merge(nums1, m, nums2, n)
-print(nums1)  # Output: [1, 2, 2, 3, 5, 6]
+print(nums1)
