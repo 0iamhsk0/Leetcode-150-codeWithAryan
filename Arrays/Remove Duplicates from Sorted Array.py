@@ -13,13 +13,20 @@ def removeDuplicates1(nums):
     k = 0
     for i in range(1, len(nums)):
         if nums[i] != nums[k]:
-            k += 1
             nums[k] = nums[i]
+            k += 1
+
     
     return k + 1
 
+# Approach 2: Using set (slow and violates rules)
+def removeDuplicates2(nums):
+    unique = sorted(set(nums))
+    for i in range(len(unique)):
+        nums[i] = unique[i]
+    return len(unique)
 
-# (alt)
+# (alt) optimal
 def removeDuplicates(nums):
     if not nums:
         return 0
