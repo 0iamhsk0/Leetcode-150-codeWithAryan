@@ -1,6 +1,6 @@
 '''
-Name: 45. Jump Game II
-Link: https://leetcode.com/problems/jump-game-ii/description/'''
+Name: 55. Jump Game I
+Link: https://leetcode.com/problems/jump-game/description/'''
 
 # Approach 1: Greedy Algorithm
 def jump(nums):
