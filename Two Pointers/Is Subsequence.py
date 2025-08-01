@@ -19,4 +19,4 @@ def isSubsequence(s, t):
 # Test Case:
 s = "abc"
 t = "ahbgdc"
-print(isSubsequence(s, t))
+print(isSubsequence(s, t)) # True
