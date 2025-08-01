@@ -1,1 +1,1 @@
-![@codeWithAryan Leetcode sheet](CodeWithAryan - Leetcode 150.jpg)
+![Leetcode 150](CodeWithAryan - Leetcode 150.jpg)
