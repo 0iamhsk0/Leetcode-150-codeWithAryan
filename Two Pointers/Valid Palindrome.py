@@ -34,7 +34,7 @@ def isPalindrome(s):
 
 # Test case
 s = "A man, a plan, a canal: Panama"
-print(isPalindrome(s))
+print(isPalindrome(s)) # True
 
 
 
