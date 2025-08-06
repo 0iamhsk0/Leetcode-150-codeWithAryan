@@ -1,6 +1,7 @@
 '''
 Name: 125. Valid Palindrome
-Link: https://leetcode.com/problems/valid-palindrome/description/'''
+Link: https://leetcode.com/problems/valid-palindrome/description/
+'''
 
 # Approach 1: Using string functions and two pointers, this method taks forever because there are many test cases with different string characters
 def isPalindrome1(s):
