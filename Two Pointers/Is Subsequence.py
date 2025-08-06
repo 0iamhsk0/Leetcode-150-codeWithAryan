@@ -1,6 +1,7 @@
 '''
 Name: 392. Is Subsequence
-Link: https://leetcode.com/problems/is-subsequence/description/'''
+Link: https://leetcode.com/problems/is-subsequence/description/
+'''
 
 # Approach 1: 
 def isSubsequence(s, t):
