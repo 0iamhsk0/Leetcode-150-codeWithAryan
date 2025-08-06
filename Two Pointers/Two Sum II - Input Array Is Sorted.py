@@ -1,6 +1,7 @@
 '''
 Name: 167. Two Sum II - Input Array Is Sorted
-Link: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/'''
+Link: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/
+'''
 
 # Approach 1: Using two pointers
 
