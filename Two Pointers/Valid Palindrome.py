@@ -20,8 +20,7 @@ def isPalindrome1(s):
     return True
 
 # Appraoch 2: Same but simplified
-def isPalindrome(s):
-    # Remove non-alphanumeric characters and convert to lowercase
+def isPalindrome2(s):
     filtered_string = ''.join(char.lower() for char in s if char.isalnum())
     
     n = len(filtered_string)
@@ -31,6 +30,10 @@ def isPalindrome(s):
     return True
 
 # Approach 3: If reversed string is same as the original then palindrome too
+
+def isPalindrome(s):
+    filtered_string = ''.join(char.lower() for char in s if char.isalnum())
+    return filtered_string == filtered_string[::-1]
 
 # Test case
 s = "A man, a plan, a canal: Panama"
